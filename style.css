@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.score{
+    border: 2px solid green;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.score p{
+    color: tomato;
+}*/
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+}
+
+.btns button{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
